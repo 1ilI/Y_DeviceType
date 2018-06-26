@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		8A191DD820E0E14400FACFE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A191DD720E0E14400FACFE5 /* AppDelegate.m */; };
 		8A191DDB20E0E14400FACFE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A191DDA20E0E14400FACFE5 /* ViewController.m */; };
-		8A191DDE20E0E14400FACFE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A191DDC20E0E14400FACFE5 /* Main.storyboard */; };
 		8A191DE020E0E14400FACFE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A191DDF20E0E14400FACFE5 /* Assets.xcassets */; };
 		8A191DE320E0E14400FACFE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A191DE120E0E14400FACFE5 /* LaunchScreen.storyboard */; };
 		8A191DE620E0E14400FACFE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A191DE520E0E14400FACFE5 /* main.m */; };
@@ -22,7 +21,6 @@
 		8A191DD720E0E14400FACFE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8A191DD920E0E14400FACFE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8A191DDA20E0E14400FACFE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8A191DDD20E0E14400FACFE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A191DDF20E0E14400FACFE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A191DE220E0E14400FACFE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A191DE420E0E14400FACFE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,7 +64,6 @@
 				8A191DD720E0E14400FACFE5 /* AppDelegate.m */,
 				8A191DD920E0E14400FACFE5 /* ViewController.h */,
 				8A191DDA20E0E14400FACFE5 /* ViewController.m */,
-				8A191DDC20E0E14400FACFE5 /* Main.storyboard */,
 				8A191DDF20E0E14400FACFE5 /* Assets.xcassets */,
 				8A191DE120E0E14400FACFE5 /* LaunchScreen.storyboard */,
 				8A191DE420E0E14400FACFE5 /* Info.plist */,
@@ -78,8 +75,8 @@
 		8A191DEC20E0E14400FACFE5 /* Y_DeviceType */ = {
 			isa = PBXGroup;
 			children = (
-				8A191DED20E0E14400FACFE5 /* UIDevice+DeviceType.m */,
 				8A191DEE20E0E14400FACFE5 /* UIDevice+DeviceType.h */,
+				8A191DED20E0E14400FACFE5 /* UIDevice+DeviceType.m */,
 			);
 			path = Y_DeviceType;
 			sourceTree = SOURCE_ROOT;
@@ -143,7 +140,6 @@
 			files = (
 				8A191DE320E0E14400FACFE5 /* LaunchScreen.storyboard in Resources */,
 				8A191DE020E0E14400FACFE5 /* Assets.xcassets in Resources */,
-				8A191DDE20E0E14400FACFE5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,14 +160,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8A191DDC20E0E14400FACFE5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8A191DDD20E0E14400FACFE5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8A191DE120E0E14400FACFE5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -300,6 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JX244CCJVA;
 				INFOPLIST_FILE = Y_DeviceTypeExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JX244CCJVA;
 				INFOPLIST_FILE = Y_DeviceTypeExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
